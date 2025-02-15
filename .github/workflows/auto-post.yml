@@ -27,4 +27,4 @@ jobs:
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
           WP_URL: ${{ secrets.WP_URL }}
-        run: python wordpress_ai_autopost.py
+        run: python script.py
